@@ -19,7 +19,8 @@ pacman -Syu --noconfirm \
 echo "Installing the app & it's dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	impression
+	impression \
+	nss-mdns
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
