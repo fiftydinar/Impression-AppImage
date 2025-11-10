@@ -17,7 +17,7 @@ export STARTUPWMCLASS=impression # For Wayland, this is 'io.gitlab.adhami3310.Im
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 wget --retry-connrefused --tries=30 "$SHARUN" -O ./quick-sharun
 chmod +x ./quick-sharun
-./quick-sharun /usr/bin/impression
+./quick-sharun /usr/bin/impression /usr/lib/libnss_mdns4_minimal.so*
 
 ## Set gsettings to save to keyfile, instead to dconf
 echo "GSETTINGS_BACKEND=keyfile" >> ./AppDir/.env
