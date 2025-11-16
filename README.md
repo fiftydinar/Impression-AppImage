@@ -33,6 +33,8 @@ This appimage works without fuse2 as it can use fuse3 instead, it can also work 
 
 More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
 
+---
+
 ## Known quirks
 
 - `udisks2` is required to be installed on the host for managing USB devices (same as upstream)
