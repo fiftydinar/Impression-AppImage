@@ -35,6 +35,6 @@ More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/
 
 ---
 
-## Known quirks
+## Known quirk
 
 - `udisks2` is required to be installed on the host for managing USB devices (same as upstream)
